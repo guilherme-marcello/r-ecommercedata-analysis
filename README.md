@@ -1,5 +1,9 @@
 # E-commercedata
 
+1# I created a function called "obs_and_variables", that use dim() to show the answer.
+
+2# After load the dataframe(df), I "subsetted" it in order to have a new dataframe, "australia", with only the australian cities and how many visits they had done. Then I aggregated the australian visits values according to the respective australian cities with the sum function! Therefore, after that I only had to print the max visits of all australian cities(with "max(answer$x)") and then, from the max position(which.max(answer$x)) I found the australian city where had more visits.("answer$city[which.max(answer$x)]")
+
 3#
 I assign the variable df the values of the dataset. Then I used the boxplot function for behavNumVisits column values(with the "horizontal" option)
 
