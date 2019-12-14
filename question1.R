@@ -2,7 +2,7 @@ df <- read.csv('taskdataset.csv')
 #1
 obs_and_variables <- function(dataset)
 {
-  both <- dim(df)
+  both <- dim(dataset)
   print("Observations/Variables:")
   print(both)
 }
